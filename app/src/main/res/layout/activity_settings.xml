@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings"
+    android:background="@android:color/holo_blue_light">
+
+    <TextView
+        android:id="@+id/center"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/center"
+        android:layout_marginLeft="40px"
+        android:layout_alignBottom="@+id/center"
+        android:layout_marginBottom="250px"
+        android:text="4x4"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/center"
+        android:layout_marginRight="40px"
+        android:layout_alignBottom="@+id/center"
+        android:layout_marginBottom="250px"
+        android:text="3x3"
+        android:textSize="20sp"
+        />
+
+
+    <Button
+        android:id="@+id/btn24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/center"
+
+        android:text="3"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btn23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/center"
+        android:layout_marginRight="150px"
+        android:layout_alignBottom="@+id/center"
+
+        android:text="2"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/btn25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/center"
+        android:layout_marginLeft="150px"
+        android:layout_alignBottom="@+id/center"
+
+        android:text="4"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/center"
+        android:text="Grid size:"
+        android:textSize="20sp"
+        android:layout_marginBottom="400px"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Designed and Developed by Kailash"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:layout_alignTop="@+id/center"
+        android:layout_marginTop="100px"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Players:"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_alignBottom="@+id/center"
+        android:layout_marginBottom="140px"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Back"
+        android:text="BACK"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@+id/center"
+        android:layout_marginTop="300px"
+    />
+
+</RelativeLayout>
